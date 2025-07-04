@@ -1,7 +1,8 @@
 import { Outlet, Route, Routes } from 'react-router-dom';
-import Sidebar from '../Components/SideBar/SideBar';
-import Login from '../Auth/Login';
-import Dashboard from '../Page/hello/hello';
+
+import Dashboard from '@/Page/hello/hello';
+import Sidebar from '@/Components/SideBar/SideBar';
+import Login from '@/Auth/Login';
 
 const DefaultRouter = () => {
   const LayoutWithNavbar = () => (
